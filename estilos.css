@@ -1,0 +1,120 @@
+@font-face {
+    font-family:'boogybrut';
+    src: url('../web/fonts/BoogyBrut.woff2') format('woff2'),
+    url('../web/fonts/BoogyBrut.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuehaaslight';
+    src: url('../web/fonts/NeueHaasDisplay-Light.ttf') format('truetype'),
+    url('../web/fonts/NeueHaasDisplay-Light.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuehaaslightitalic';
+    src: url('../web/fonts/NeueHaasDisplay-LightItalic.ttf') format('truetype'),
+    url('../web/fonts/NeueHaasDisplay-LightItalic.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+h1 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 160px;
+    letter-spacing: 5px;
+    font-family: 'boogybrut';
+    font-weight: normal;
+    min-width: 50%;
+    font-size: 140px;
+    margin: auto;
+    color: white;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+h2 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'neuehaaslight';
+    font-weight: normal;
+    min-width: 50%;
+    font-size: 13px;
+    margin: auto;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 3%;
+}
+
+
+/*efeito highlight*/
+body { background-color:black; }
+.highlight { 
+    background-color:white;
+    background: linear-gradient(to top, white 85%, transparent 50%);
+ }
+h1 { background-color: black; }
+
+
+/*links*/
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*efeito highlight hover (tem de estar depois dos links)*/
+.highlight:hover {
+    background-color: red;
+    background: linear-gradient(to top, red 85%, transparent 50%);
+
+}
+
+
+/*seta*/
+.arrow {
+    width: 2%;
+    height: auto;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 50px;
+}
+
+#button {
+    height: 7px;
+} 
