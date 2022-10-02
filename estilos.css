@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: 'neuehaaslight';
-    src: url('../web/fonts/NeueHaasDisplay-Light.ttf') format('truetype'),
-    url('../web/fonts/NeueHaasDisplay-Light.otf') format('.otf');
+    src: url('NeueHaasDisplay-Light.ttf') format('truetype'),
+    url('NeueHaasDisplay-Light.otf') format('.otf');
     font-weight: normal;
     font-style: normal;
 }
