@@ -1,7 +1,7 @@
 @font-face {
     font-family:'boogybrut';
-    src: url('../web/fonts/BoogyBrut.woff2') format('woff2'),
-    url('../web/fonts/BoogyBrut.woff') format('woff');
+    src: url('BoogyBrut.ttf') format('truetype'),
+    url('BoogyBrut.otf') format('.otf');
     font-weight: normal;
     font-style: normal;
 }
